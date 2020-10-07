@@ -15,3 +15,12 @@ span:nth-last-of-type(2n):hover {
   color: peru;
   font-size: 21px;
 }
+span:nth-last-of-type(2n):not(:nth-last-of-type(18)) {
+  color: black;
+}
+
+span:nth-last-of-type(2n):nth-last-of-type(5n):hover {
+  color: green;
+  font-weight: bolder;
+  opacity: 0.4;
+}
