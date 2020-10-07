@@ -83,32 +83,26 @@ the centering is applied to the element that has this class
   border-radius: 10px;
   width: 230px;
   height: 230px;
+  background-size: cover;
+  background-position: center;
 }
 
 #meme-square-1 {
   background-image: url(/img/box1.gif);
-  background-size: cover;
-  background-position: center;
   border-radius: 10px;
 }
 
 #meme-square-2 {
   background-image: url("/img/box2.gif");
-  background-size: cover;
-  background-position: center;
   border-radius: 20px;
 }
 
 #meme-square-3 {
   background-image: url(/img/box3.gif);
-  background-size: cover;
-  background-position: center;
   border-radius: 30px;
 }
 
 #meme-square-4 {
   background-image: url(/img/box4.gif);
-  background-size: cover;
-  background-position: center;
-  border-radius: 20px;
+  border-radius: 40px;
 }

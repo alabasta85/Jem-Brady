@@ -1,0 +1,17 @@
+span:nth-last-of-type(odd) {
+  color: purple;
+  opacity: 0.5;
+}
+
+span:nth-last-of-type() {
+  color: goldenrod;
+  opacity: 0.5;
+}
+
+/*span:nth-last-of-type(3n){
+    color: orangered;
+}*/
+span:nth-last-of-type(2n):hover {
+  color: peru;
+  font-size: 21px;
+}
